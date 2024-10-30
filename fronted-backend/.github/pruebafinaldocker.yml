@@ -3,7 +3,7 @@ name: Build and Push Docker Images
 on:
   push:
     branches:
-      - main  # Ejecuta el workflow al hacer push en la rama principal
+      - main  
 
 jobs:
   build-and-push:
